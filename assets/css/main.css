@@ -3169,7 +3169,8 @@ input, select, textarea {
 		line-height: 3.25em;
 		margin: 0;
 		position: fixed;
-		text-transform: uppercase;
+		/*text-transform: uppercase;*/
+		text-transform: none;
 		top: 0;
 		width: 100%;
 		z-index: 10000;
@@ -3477,6 +3478,7 @@ input, select, textarea {
 
 		#banner h1 {
 			font-size: 3.25em;
+            line-height: 1.1;
 		}
 
 		#banner > .inner {
